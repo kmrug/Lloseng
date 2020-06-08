@@ -48,17 +48,6 @@ public class ChatClient extends AbstractClient
     openConnection();
     sendToServer("#login " + loginID);
   }
-
-  public ChatClient(String host, int port, ChatIF clientUI){
-    super(host, port); //Call the superclass constructor
-    this.clientUI = clientUI;
-    this.loginID = loginID;
-    connectionLogger = true;
-    //openConnection();
-    //sendToServer("#login " + loginID);
-  }
-
-
   
   //Instance methods ************************************************
     

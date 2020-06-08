@@ -52,15 +52,7 @@ public class ClientConsole implements ChatIF
     {
       System.out.println("Cannot open connection.  Awaiting command.");
       //accept();
-      //System.exit(1);
-    }
-    finally{
-    	try{
-    		client = new ChatClient(host, port, this);
-    	}
-    	catch(Exception e){
-    		System.out.println(e);
-    	}
+      //System.exit(1);edf
     }
   }
 
